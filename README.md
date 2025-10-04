@@ -87,6 +87,6 @@ To handle the "anchor links", you'll need to include an ev parameter in your eve
 # Acknowledgements
 
 Developers:
-1. Nay Bored
+1. Bridget Kimball
 
 With huge thanks to the ~~CS 343 cheat code~~ [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Realizing_common_layouts_using_grids#a_responsive_layout_with_1_to_3_fluid_columns_using_grid-template-areas).
