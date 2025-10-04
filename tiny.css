@@ -1,0 +1,33 @@
+/* 1. edit the tiny.css such that when the viewport width is less than 375px, the layout
+        changes such that only the "main article area" is displayed.
+    1. Use your browser's developer tools to shrink the viewport! Just resizing the
+        browser window won't be small enough.
+    2. Scroll down; do you see other things "bunched up" in the bottom right?
+        1. Write another CSS rule in your media query to select these other sections and
+            hide them (`display: none`)!  */
+
+@media (max-width: 375px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "content";
+    }
+
+    .content {
+        display: block;
+    }
+
+    .main-head,
+    .main-nav,
+    .side,
+    .ad,
+    .main-footer {
+        display: none !important;
+    }
+
+    .content {
+        padding: 12px;
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+}
